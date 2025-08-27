@@ -46,8 +46,9 @@ langgraph-cs-agent/
 
 Clone the repo
 
-git clone https://github.com/ArunMandava3030/Slooze_challenge_data-engineering.git
-cd Slooze_challenge_data-engineering/langgraph-cs-agent
+git clone 
+https://github.com/ArunMandava3030/LangGraph-Customer-Support-Agent.git
+cd LangGraph-Customer-Support-Agent/langgraph-cs-agent
 
 
 Create a virtual environment
