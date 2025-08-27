@@ -1,0 +1,53 @@
+AGENT:
+  mode: deterministic
+  abilities:
+    - name: store_data
+      mcp: COMMON
+      prompt: "Attach retrieved info to state payload."
+
+DECIDE:
+  mode: nondeterministic
+  abilities:
+    - name: solution_evaluation
+      mcp: COMMON
+      prompt: "Score candidate solutions 1-100."
+    - name: escalation_decision
+      mcp: ATLAS
+      prompt: "If score < 90, escalate to human."
+    - name: update_payload
+      mcp: COMMON
+      prompt: "Record decision outcomes in payload."
+
+UPDATE:
+  mode: deterministic
+  abilities:
+    - name: update_ticket
+      mcp: ATLAS
+      prompt: "Modify status/fields/priority."
+    - name: close_ticket
+      mcp: ATLAS
+      prompt: "Mark issue resolved if applicable."
+
+CREATE:
+  mode: deterministic
+  abilities:
+    - name: response_generation
+      mcp: COMMON
+      prompt: "Draft a customer-facing reply."
+
+DO:
+  mode: deterministic
+  abilities:
+    - name: execute_api_calls
+      mcp: ATLAS
+      prompt: "Trigger CRM/order system actions."
+    - name: trigger_notifications
+      mcp: ATLAS
+      prompt: "Notify the customer."
+
+COMPLETE:
+  mode: deterministic
+  abilities:
+    - name: output_payload
+      mcp: COMMON
+      prompt: "Print final structured payload."
