@@ -105,5 +105,8 @@ Execution with CLI commands → python -m src.main.
 
 Example run + output included → Documented above.
 
-![alt text](https://github.com/ArunMandava3030/LangGraph-Customer-SupportAgent/blob/bd81a999683e5fd37f39c255076deb9abdcae8c5/Screenshot%202025-08-27%20223922.png)
-![alt text](https://github.com/ArunMandava3030/LangGraph-Customer-SupportAgent/blob/bd81a999683e5fd37f39c255076deb9abdcae8c5/Screenshot%202025-08-27%20223953.png)
+
+![alt text](https://github.com/ArunMandava3030/LangGraph-Customer-Support-Agent/blob/6b9aff62e7001d6f850a3b27f749e00eebec960d/Screenshot%202025-08-27%20223922.png)
+
+
+![alt text](https://github.com/ArunMandava3030/LangGraph-Customer-Support-Agent/blob/6b9aff62e7001d6f850a3b27f749e00eebec960d/Screenshot%202025-08-27%20223953.png)
